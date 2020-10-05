@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>html basico</title>
+    <style>
+        table {
+
+            width: 100%;
+        }
+
+        table,
+        th,
+        td {
+
+            border: 1px solid blue;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            padding: 5px;
+            text-align: left;
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <!--Fila que utiliza mas de una columna-->
+
+    <table>
+        <tr>
+            <th>Nombre</th>
+            <th colspan="2">Telefono</th>
+        </tr>
+
+        <tr>
+            <td>Jose Francia</td>
+            <td>0975 - 601 502</td>
+            <td>0975 - 601 503</td>
+        </tr>
+
+    </table>
+
+
+    <!--Columna que utiliza mas de una fila-->
+    <br>
+    <br>
+    <table>
+        <tr>
+            <th>Nombre</th>
+            <td>Jose Francia</td>
+        </tr>
+
+        <tr>
+            <th rowspan="2">Telefono</th>
+            <td>0975 - 601 502</td>
+        </tr>
+
+        <tr>
+            <td>0975 - 601 503</td>
+        </tr>
+
+    </table>
+
+
+
+</body>
+
+<footer>
+    <p style="text-align: center;">Copyright 1-BTI</p>
+</footer>
+
+</html>
