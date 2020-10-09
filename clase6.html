@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>html basico</title>
+
+    <style>
+        table , th , td{
+            border: 1px solid green;
+            border-collapse: collapse;
+        }
+
+        th, td{
+            padding: 15px;
+            text-align: left;
+        }
+        
+        colspan
+
+        #tabla2{
+            width: 100%;
+            background-color: indigo;
+        }
+
+        #tabla3{
+
+            width: 100%;
+        }
+
+        #tabla3 tr:nth-child(even){
+            background-color: #eee;
+        }
+
+        #tabla3 tr:nth-child(odd){
+            background-color: #fff;
+        }
+
+        #tabla3 th{
+            background-color: black;
+            color:white
+        }
+
+        #tabla3 td{
+            color: black;
+        }
+
+    </style>
+</head>
+
+<body>
+        <h2>Tabla sin personalizar con id</h2>
+        
+        <table style="width: 100%;">
+            <tr>
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>Edad</th>
+            </tr>
+        
+            <tr>
+                <td>Jose</td>
+                <td>Perez</td>
+                <td>40</td>
+            </tr>
+            <tr>
+                <td>Jesus</td>
+                <td>Nazzared</td>
+                <td>32</td>
+            </tr>
+            <tr>
+                <td>Maria</td>
+                <td>Chamorro</td>
+                <td>28</td>
+            </tr>
+        
+        </table>
+
+    <!--Estilos especiales-->
+    <h2>Personalizando nuetra tabla con id</h2>
+
+    <table id="tabla2">
+        <tr>
+           <th>Nombre</th>
+           <th>Apellido</th>
+            <th>Edad</th>
+        </tr>
+
+        <tr>
+            <td>Jose</td>
+            <td>Perez</td>
+            <td>40</td>
+        </tr>
+        <tr>
+            <td>Jesus</td>
+            <td>Nazzared</td>
+            <td>32</td>
+        </tr>
+        <tr>
+            <td>Maria</td>
+            <td>Chamorro</td>
+            <td>28</td>
+        </tr>
+
+    </table>
+        <!--Estilos especiales-->
+        <h2>Personalizando nuetra tabla con id </h2>
+
+    <table id="tabla3">
+        <tr>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Edad</th>
+        </tr>
+    
+        <tr>
+            <td>Jose</td>
+            <td>Perez</td>
+            <td>40</td>
+        </tr>
+        <tr>
+            <td>Jesus</td>
+            <td>Nazzared</td>
+            <td>32</td>
+        </tr>
+        <tr>
+            <td>Maria</td>
+            <td>Chamorro</td>
+            <td>28</td>
+        </tr>
+        <tr>
+            <td>Jesus</td>
+            <td>Nazzared</td>
+            <td>32</td>
+        </tr>
+        <tr>
+            <td>Maria</td>
+            <td>Chamorro</td>
+            <td>28</td>
+        </tr>
+    
+    </table>
+
+</body>
+
+<footer>
+    <p style="text-align: center;">Copyright 1-BTI</p>
+</footer>
+
+</html>
