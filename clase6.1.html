@@ -18,6 +18,7 @@
 
    <h2>Input tipo seleccion multiple</h2>
 
+   <h3>Sexo</h3>
    <form action="">
         <input type="radio" id="masculino" name="genero" value="masculino">
         <label for="masculino">Masculino</label><br>
@@ -28,8 +29,116 @@
         <input type="radio" id="otros" name="genero" value="otros">
         <label for="otros">Otros</label><br>
 
-        
+    <h3>Lenguaje</h3>
+    <form action="">
+        <input type="radio" id="python" name="lenguaje" value="python">
+        <label for="masculino">Python</label><br>
+    
+        <input type="radio" id="java" name="lenguaje" value="java">
+        <label for="femenino">Java</label><br>
    </form>
+
+
+   <h2>Checkboxes</h2>
+    <h3>Vehículos</h3>
+   <form action="">
+    <input type="checkbox" id="vehiculo1" name="vehiculo1" value="bici">
+    <label for="vehiculo1">Bicicleta</label><br>
+    <input type="checkbox" id="vehiculo2" name="vehiculo2" value="auto">
+    <label for="vehiculo2">Automovil</label><br>
+    <input type="checkbox" name="vehiculo3" id="vehiculo3" value="moto">
+    <label for="vehiculo3">Motocicleta</label>
+   </form>
+
+   <h2>Boton Submit</h2>
+   <h3>Datos Personales</h3>
+
+   <form action="/C:/Users/Hugo/Documents/Desktop/llamada1.html">
+        <label for="fnombre">Nombre</label><br>
+        <input type="text" id="fnombre" name="fnombre" placeholder="Escriba su nombre"><br>
+        <label for="fapellido">Apellido</label><br>
+        <input type="text" id="fapellido" name="fapellido" placeholder="Escriba su apellido"><br><br>
+        <input type="submit" value="Enviar">
+
+    </form>
+
+
+    <h2>Lista</h2>
+    <h3>Marca de autos</h3>
+
+    <form action="/prueba.html">
+        <label for="autos">Seleccione una marca de auto</label>
+        <select name="autos" id="autos" size="2">
+            <option value="volvo">Volvo</option>
+            <option value="audi">Audi</option>
+            <option value="toyota">Toyota</option>
+            <option value="fiat">Fiat</option>
+            <option value="volvo">Volvo</option>
+            <option value="audi">Audi</option>
+            <option value="toyota">Toyota</option>
+            <option value="fiat">Fiat</option>
+            <option value="volvo">Volvo</option>
+            <option value="audi">Audi</option>
+            <option value="toyota">Toyota</option>
+            <option value="fiat">Fiat</option>
+            <option value="volvo">Volvo</option>
+            <option value="audi">Audi</option>
+            <option value="toyota">Toyota</option>
+            <option value="fiat">Fiat</option>
+        </select><br>
+        <input type="submit" value="Enviar marca">       
+    </form>
+
+    <h2>Area de texto</h2>
+    <h3>Mensaje</h3>
+    <form action="/prueba.html">
+
+        <textarea name="mensaje" id="mensaje" cols="40" rows="5"></textarea>
+        <input type="submit" value="Envair Mensaje">
+    </form>
+
+    <h2>Boton</h2>
+    <button type="button" onclick="alert('Hola Html5')">Dar Clic</button>
+
+
+
+    <h3>DATOS</h3>
+    
+    <form action="/C:/Users/Hugo/Documents/Desktop/llamada1.html">
+        <fieldset>
+        <legend>Datos Personales</legend>
+        <label for="fnombre">Nombre</label><br>
+        <input type="text" id="fnombre" name="fnombre" placeholder="Escriba su nombre"><br>
+        <label for="fapellido">Apellido</label><br>
+        <input type="text" id="fapellido" name="fapellido" placeholder="Escriba su apellido"><br><br>
+        <input type="submit" value="Enviar">
+    </fieldset>
+    </form>
+<br>        
+        <form action="/C:/Users/Hugo/Documents/Desktop/llamada1.html">
+            <fieldset>
+            <legend>Datos de mascota</legend>
+            <label for="fnombre">Nombre</label><br>
+            <input type="text" id="fnombre" name="fnombre" placeholder="nombre de su mascota"><br>
+            <label for="fapellido">Especie</label><br>
+            <input type="text" id="fapellido" name="fapellido" placeholder="especie de su mascota"><br><br>
+            <input type="submit" value="Enviar">
+        </fieldset>
+        </form>
+
+<h2>Output</h2>
+
+<form action="" oninput="x.value=parseInt(a.value) + parseInt(b.value)">
+0
+<input type="range" id="a" name="a" value="50">
+100+
+
+<input type="number" id="b" name="b" value="50">
+=
+<output name="x" for="a b"></output>
+
+</form>
+
 
 </body>
 
