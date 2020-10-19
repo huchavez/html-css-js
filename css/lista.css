@@ -1,0 +1,15 @@
+p {
+    text-align: right;
+}
+
+.a {
+    list-style-type: circle;
+}
+
+#listaOrdenada {
+    list-style-type: upper-roman;
+}
+
+.pie {
+    text-align: center;
+}
