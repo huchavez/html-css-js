@@ -1,0 +1,36 @@
+h1 {
+    text-align: center;
+}
+
+ul.listaNoOrdenada {
+    list-style-type: square;
+    width: 25%;
+}
+
+ol.listaOrdenada {
+    list-style-type: lower-latin;
+    width: 25%;
+}
+
+ol {
+    background: #9c9c9c;
+    padding: 1px;
+}
+
+ul {
+    background: #0c083d;
+    padding: 20px;
+}
+
+ol li {
+    background: #000000;
+    padding: 3px;
+    margin-left: 25px;
+    color: #ffffff;
+}
+
+ul li {
+    background: #0775ef;
+    margin: 1px;
+    color: #ffffff;
+}
